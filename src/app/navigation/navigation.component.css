@@ -3,6 +3,8 @@
   width: 100%;
   text-align: center;
   padding: 25px 0;
+  position: fixed;
+  top: 0;
 }
 
 .nav-link {
@@ -15,5 +17,5 @@
 }
 
 .nav-link:hover, .nav-link:active {
-  color: var(--greeny-blue);
+  color: var(--darker-blue);
 }

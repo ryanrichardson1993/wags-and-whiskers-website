@@ -1,7 +1,6 @@
 :root {
   --main-light-blue: #50C9D7;
   --darker-blue: #2592BA;
-  --greeny-blue: #00A99D;
 }
 
 html, body {
@@ -14,9 +13,14 @@ a, p, h2, h3 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
 .component-container {
-  margin: 10px 0;
-  background: var(--main-light-blue);
+  margin: 10px 0 0 0;
+  background: var(--darker-blue);
   padding: 10px;
   text-align: center;
 }
@@ -26,5 +30,5 @@ a, p, h2, h3 {
   background-size: cover;
   width: 300px;
   height: 200px;
-  margin: 0 auto;
+  margin: 70px auto 0 auto;
 }

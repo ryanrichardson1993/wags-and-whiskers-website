@@ -1,0 +1,37 @@
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+    border: none;
+}
+
+.facebook {
+  background-image: url(/assets/facebook.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.twitter {
+  background-image: url(/assets/twitter.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.instagram {
+  background-image: url(/assets/instagram.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.protectivity {
+    border-bottom: none;
+    margin: 0;
+}
