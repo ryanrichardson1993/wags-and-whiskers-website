@@ -1,0 +1,57 @@
+<div class="component-container">
+  <h3 class="service-section-header">Dog Walking</h3>
+  <div class="service-item-container">
+    <div class="service-item">
+      <p>30 minute walk</p>
+      <p>£8</p>
+      <p class="small-text">*Add £5 per extra dog from same household</p>
+    </div>
+    <div class="service-item">
+      <p>1 hour walk</p>
+      <p>£12</p>
+      <p class="small-text">*Add £5 per extra dog from same household</p>
+    </div>
+  </div>
+  <h3 class="service-section-header">Training</h3>
+  <div class="service-item-container">
+    <div class="service-item">
+      <p>Loose Lead Training Walk</p>
+      <p>£12</p>
+      <p *ngIf="showFullLooseLead" class="read-more-text">This service is a 30 minute walk in which we will also provide training to walk to heel and not pull on a lead.</p>
+      <button class="more-info-button" (click)="toggleShowMoreInfoLooseLead()">{{ showFullLooseLead ? 'Read less' : 'Read more'}}</button>
+    </div>
+    <div class="service-item">
+      <p>One-to-One Training</p>
+      <p>£25</p>
+      <p *ngIf="showFull121" class="read-more-text">One to one training session tailored to your specific needs.</p>
+      <button class="more-info-button" (click)="toggleShowMoreInfo121()">{{ showFull121 ? 'Read less' : 'Read more'}}</button>
+    </div>
+    <div class="service-item">
+      <p>Puppy Training Package</p>
+      <p>£70</p>
+      <p *ngIf="showFullPuppyPackage" class="read-more-text">Four sessions covering puppy essentials tailored to suit you. Sessions can include for example socialisation, loose lead walking, recall and house/toilet training.</p>
+      <button class="more-info-button" (click)="toggleShowMoreInfoPuppyPackage()">{{ showFullPuppyPackage ? 'Read less' : 'Read more'}}</button>
+    </div>
+  </div>
+  <h3 class="service-section-header">Pet Sitting and Visits</h3>
+  <div class="service-item-container">
+    <div class="service-item">
+      <p>Cats and Small Animals</p>
+      <p>From £5 per visit</p>
+      <p *ngIf="showFullCatSmallVisit" class="read-more-text">We can come and visit your cats and small pets to feed, change water, litter etc whilst you are away. Price can be more than £5 per visit depending on location.</p>
+      <button class="more-info-button" (click)="toggleShowMoreInfoCatSmallVisit()">{{ showFullCatSmallVisit ? 'Read less' : 'Read more'}}</button>
+    </div>
+    <div class="service-item">
+      <p>Puppies</p>
+      <p>£8 per visit</p>
+      <p *ngIf="showFullPuppyVisit" class="read-more-text">For puppies who are too young to go out for a walk, but don't want to be left alone all day.</p>
+      <button class="more-info-button" (click)="toggleShowMoreInfoPuppyVisit()">{{ showFullPuppyVisit ? 'Read less' : 'Read more'}}</button>
+    </div>
+    <div class="service-item">
+      <p>Overnight Dog Sitting</p>
+      <p>From £25 per night</p>
+      <p *ngIf="showFullDogSitting" class="read-more-text">We will stay with your dog(s) in your home whilst you are away. This is generally much less stressful for them than being left in a kennel.</p>
+      <button class="more-info-button" (click)="toggleShowMoreInfoDogSitting()">{{ showFullDogSitting ? 'Read less' : 'Read more'}}</button>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --main-light-blue: #50C9D7;
+  --darker-blue: #2592BA;
+  --greeny-blue: #00A99D;
+}
+
+html, body {
+  margin: 0;
+}
+
+a, p, h2, h3 {
+  font-family: Segoe UI, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.component-container {
+  margin: 10px 0;
+  background: var(--main-light-blue);
+  padding: 10px;
+  text-align: center;
+}
+
+.header-image {
+  background-image: url("assets/logo.png");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}

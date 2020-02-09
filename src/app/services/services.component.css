@@ -1,0 +1,36 @@
+.service-item-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.service-item {
+  background-color: var(--darker-blue);
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.small-text {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.read-more-text {
+  font-weight: normal;
+}
+
+h3 .service-section-header {
+  margin: 0 auto;
+}
+
+.more-info-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-style: italic;
+  border-bottom: 1px solid white;
+  padding: 0;
+}

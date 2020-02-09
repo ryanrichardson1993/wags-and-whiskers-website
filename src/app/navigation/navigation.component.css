@@ -1,0 +1,19 @@
+.navigation-header {
+  background: var(--main-light-blue);
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.nav-link {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-family: Segoe UI, Helvetica, sans-serif;
+  margin: 0 10px;
+}
+
+.nav-link:hover, .nav-link:active {
+  color: var(--greeny-blue);
+}

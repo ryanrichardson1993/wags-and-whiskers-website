@@ -1,0 +1,18 @@
+.team-members-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.team-member-item {
+  margin: 10px;
+  width: 250px;
+}
+
+.team-member-image {
+  background-image: url(/assets/marley.png);
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
