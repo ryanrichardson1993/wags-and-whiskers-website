@@ -8,7 +8,7 @@
 }
 
 .facebook {
-  background-image: url(/assets/facebook.png);
+  background-image: url("/assets/facebook.png");
   background-size: cover;
   height: 40px;
   width: 40px;
@@ -16,7 +16,7 @@
 }
 
 .twitter {
-  background-image: url(/assets/twitter.png);
+  background-image: url("/assets/twitter.png");
   background-size: cover;
   height: 40px;
   width: 40px;
@@ -24,7 +24,7 @@
 }
 
 .instagram {
-  background-image: url(/assets/instagram.png);
+  background-image: url("/assets/instagram.png");
   background-size: cover;
   height: 40px;
   width: 40px;

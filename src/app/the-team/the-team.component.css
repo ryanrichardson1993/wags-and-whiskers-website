@@ -11,14 +11,14 @@
 }
 
 .steph-image {
-  background-image: url(/assets/steph.png);
+  background-image: url("/assets/steph.png");
   background-size: cover;
   height: 250px;
   width: 250px;
 }
 
 .jemma-image {
-  background-image: url(/assets/jemma.jpg);
+  background-image: url("/assets/jemma.jpg");
   background-size: cover;
   height: 250px;
   width: 250px;
