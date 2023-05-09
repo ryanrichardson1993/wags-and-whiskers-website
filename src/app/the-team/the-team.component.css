@@ -10,25 +10,26 @@
   width: 250px;
 }
 
-.steph-image {
-  background-image: url("../../assets/steph.png");
+.team-member-image {
   background-size: cover;
   height: 250px;
   width: 250px;
+}
+
+.steph-image {
+  background-image: url("../../assets/steph.png");
 }
 
 .jemma-image {
   background-image: url("../../assets/jemma.jpg");
-  background-size: cover;
-  height: 250px;
-  width: 250px;
 }
 
 .carol-image {
   background-image: url("../../assets/ted.jpg");
-  background-size: cover;
-  height: 250px;
-  width: 250px;
+}
+
+.abbie-image {
+  background-image: url("../../assets/abbie.jpg");
 }
 
 p {
